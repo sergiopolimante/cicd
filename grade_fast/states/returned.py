@@ -8,4 +8,13 @@ class Returned(Node):
 
     @staticmethod
     def next_state() -> "Node":
-        raise NotImplementedError()
+        """
+        Invalid call as there is no valid next state from Returned. Raises an exception.
+
+        Raises:
+            Exception: Indicating that the call is invalid.
+
+        Returns:
+            Node: None
+        """        
+        raise Exception("Invalid state transition.")

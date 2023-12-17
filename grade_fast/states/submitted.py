@@ -9,4 +9,11 @@ class Submitted(Node):
 
     @staticmethod
     def next_state() -> "Node":
-        raise NotImplementedError()
+        """
+        Returns the next state in the assignment workflow.
+
+        Returns:
+        Node: The next state InProgress, which is an instance of the Node class.
+
+        """
+        return InProgress
