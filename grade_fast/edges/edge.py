@@ -22,7 +22,7 @@ class Edge():
         self.weight = weight
 
 
-    def transition(self, node:"Node") -> "Node":
+    def transition(node:"Node") -> "Node":
         """
         Returns the next state given the current state node. 
 
