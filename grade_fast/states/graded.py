@@ -15,4 +15,4 @@ class Graded(Node):
         Returns:
         Node: The next state Returned, which is an instance of the Node class.
         """
-        return Returned()
+        return Returned
