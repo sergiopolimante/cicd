@@ -16,4 +16,4 @@ class InProgress(Node):
         Node: The next state Graded, which is an instance of the Node class.
         """
                 
-        return Graded()
+        return Graded
