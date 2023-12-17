@@ -27,7 +27,7 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-        working-directory: dev-requirements.txt
+        working-directory: ./dev-requirements.txt
 
       - name: Run Tests
         run: |
