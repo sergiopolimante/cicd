@@ -35,7 +35,7 @@ def test_assignment_graph_transitions(transitions, expected_total_time):
         )
         ```
     """
-    assert Assignment(transitions) == expected_total_time
+    assert Assignment(transitions).calculate_total_time() == expected_total_time
 
 
 ## I could not understand what this test is supposed to test.    
